@@ -64,6 +64,7 @@ function displayResults(currency) {
 }
 
 // Reset function
-function clear() {
+function resetForm() {
     location.reload();
 }
+
