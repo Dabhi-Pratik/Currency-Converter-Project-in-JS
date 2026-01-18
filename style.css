@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page */
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #6b73ff, #7f53ac);
+    font-family: "Segoe UI", system-ui, sans-serif;
+}
+
+/* Card */
+.card {
+    width: 100%;
+    max-width: 760px;
+    padding: 35px 40px 40px;
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.25);
+}
+
+/* Title INSIDE card */
+.title {
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 30px;
+    color: #2d2f4a;
+    text-align: center;
+}
+
+/* Labels */
+label {
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 6px;
+}
+
+/* Inputs */
+.form-control,
+.form-select {
+    height: 48px;
+    border-radius: 12px;
+    border: 1px solid #ced4da;
+    font-size: 15px;
+}
+
+/* Focus */
+.form-control:focus,
+.form-select:focus {
+    border-color: #6b73ff;
+    box-shadow: 0 0 0 0.2rem rgba(107, 115, 255, 0.25);
+}
+
+/* Buttons */
+.btn {
+    min-width: 160px;
+    height: 48px;
+    border-radius: 30px;
+    font-weight: 600;
+     transition: all 0.25s ease;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    /* box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2); */
+}
+
+.convert {
+    background: linear-gradient(135deg, #6b73ff, #7f53ac);
+    border: none;
+
+}
+/* Convert button special hover */
+.convert:hover {
+    background: linear-gradient(135deg, #7f53ac, #6b73ff);
+    opacity: 0.9;
+}
+ 
+
+
+
+/* Result */
+.finalAmount {
+    margin-top: 25px;
+    padding: 18px;
+    border-radius: 14px;
+    background: #f4f6ff;
+    border: 1px solid #dbe1ff;
+}
+
+.finalValue {
+    font-size: 20px;
+    font-weight: 700;
+    color: #6b73ff;
+}
+
+
